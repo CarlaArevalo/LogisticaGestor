@@ -47,3 +47,8 @@ div.botones{
 .bt-info{
     padding:10px 5px;
 }
+.btn-custom {
+    min-width: auto;  /* ancho mínimo */
+    max-width: auto;  /* ancho máximo */
+    word-wrap: break-word; /* que corte las palabras largas */
+  }
