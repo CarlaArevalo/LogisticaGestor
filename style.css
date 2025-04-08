@@ -48,9 +48,7 @@ div.botones{
     padding:10px 5px;
 }
 .btn-custom {
-    min-width: auto;  /* ancho mínimo */
-    max-width: auto;  /* ancho máximo */
-    word-wrap: break-word; /* que corte las palabras largas */
+    min-width: 150px; /* O lo que veas cómodo */
   }
   button {
     padding: 0.5rem 1rem;  /* Arriba/Abajo - Izq/Der */
@@ -59,3 +57,9 @@ div.botones{
     max-width: 100%;  /* Por si están en un contenedor chico */
     white-space: nowrap; /* Opcional si no querés que corte en varias líneas */
   }
+
+  .contenedor-principal {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
